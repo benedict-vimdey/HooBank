@@ -24,7 +24,7 @@ const Stats = () => {
       {stats.map((stat) => (
         <div key={stat.id} className='text-white flex items-center p-16 m-3 flex-1 '>
           <p className='font-poppins font-semibold text-[40px] xs:font-[40px] xs:leading-[53px] leading-[43px] '>{stat.value}</p>
-          <p className='font-poppins font-normal text-[20px] text-blue-400 ml-3 '>{stat.title}</p>
+          <p className='font-poppins font-normal text-[20px] text-blue-400 ml-3 uppercase '>{stat.title}</p>
         </div>
       ))}
     </div>
