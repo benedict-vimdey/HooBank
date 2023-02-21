@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar, Hero, Stats,Business,Billing,CardDeal,Testimonials, CTA, Footer} from './components'
+import {Navbar, Hero, Stats,Business,Billing,CardDeal,Testimonials, CTA, Footer, Clients} from './components'
 
 const App = () => {
   return (
@@ -16,13 +16,14 @@ const App = () => {
         </div>
       </div>
 
-      <div className='bg-primary sm:px-16 px-6 flex justify-center items-start'>
+      <div className='bg-primary sm:px-16 px-6 flex justify-center items-center'>
         <div className='xl:max-w-[1280px] w-full'>
           <Stats/>
           <Business/>
           <Billing/>
           <CardDeal/>
           <Testimonials/> 
+          <Clients/>
           <CTA/>
           <Footer/>
         </div>
